@@ -3,6 +3,8 @@
 ## ¿Para qué usamos Clases en Python?
 
 Cuando hablamos de clases en Python, nos estamos refiriendo a la base de la programación orientada a objetos. Utilizamos clases para organizar el código en entidades a las que denomina objetos. Cada una de las clases actúa como si fuese un plano o una plantilla para la creación de esos objetos. En ellas, por tanto, se definen los atributos (variables) y los métodos (funciones). Los primeros se encargan de almacenar información del estado del objeto, mientras que los segundos determinan como se comportan.
+
+
 ![La clase como plano y los objetos como instancias](imagenes/clases-objetos.svg)
 ### Cómo crear clases de Python
 
