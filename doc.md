@@ -3,7 +3,7 @@
 ## ¿Para qué usamos Clases en Python?
 
 Cuando hablamos de clases en Python, nos estamos refiriendo a la base de la programación orientada a objetos. Utilizamos clases para organizar el código en entidades a las que denomina objetos. Cada una de las clases actúa como si fuese un plano o una plantilla para la creación de esos objetos. En ellas, por tanto, se definen los atributos (variables) y los métodos (funciones). Los primeros se encargan de almacenar información del estado del objeto, mientras que los segundos determinan como se comportan.
-![La clase como plano y los objetos como instancias](images/clases-objetos.svg)
+![La clase como plano y los objetos como instancias](imagenes/clases-objetos.svg)
 ### Cómo crear clases de Python
 
 
@@ -404,7 +404,7 @@ El polimorfismo es la capacidad de que un objeto pueda comportarse de diferentes
 El polimorfismo funciona creando una relación entre las clases utilizando la herencia. Cuando una superclase define un método, sus subclases pueden anular ese método para proporcionar su propia implementación. En tiempo de ejecución, el método apropiado se llama en función del tipo real del objeto. Este enlace dinámico permite un código más flexible y extensible.
 Digamos que tenemos una superclase llamada Animal con un método makeSound(). Podemos tener subclases como perro, gato y pájaro que heredan de Animal y anulan el método makeSound() con su propia implementación única. Cuando llame al método makeSound() en un objeto de tipo Animal, invocará la implementación específica en función del tipo real del objeto.
 
-![Árbol de herencia: Animal, Perro, Gato y Pájaro](images/polimorfismo-herencia.svg)
+![Árbol de herencia: Animal, Perro, Gato y Pájaro](imagenes/polimorfismo-herencia.svg)
 
  ### ¿Cuáles son los beneficios del uso del polimorfismo?
  El uso del polimorfismo en la programación trae varios beneficios. Promueve la reutilización y la modularidad del código, ya que las clases pueden compartir comportamientos comunes a través de la herencia. Mejora la flexibilidad, lo que permite agregar nuevas subclases sin modificar el código existente. El polimorfismo también permite la creación de algoritmos genéricos que pueden operar en objetos de diferentes tipos.
