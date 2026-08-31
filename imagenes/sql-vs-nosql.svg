@@ -1,0 +1,48 @@
+<svg viewBox="0 0 740 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect width="740" height="320" fill="#ffffff"/>
+
+  <text x="185" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#312e81">SQL (relacional)</text>
+  <text x="555" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#065f46">NoSQL (MongoDB)</text>
+
+  <!-- Tabla clientes -->
+  <rect x="40" y="55" width="120" height="80" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="100" y="72" text-anchor="middle" font-size="11" font-weight="bold" fill="#312e81">clientes</text>
+  <line x1="40" y1="80" x2="160" y2="80" stroke="#4f46e5"/>
+  <text x="48" y="96" font-size="10" fill="#312e81">id_cliente</text>
+  <text x="48" y="112" font-size="10" fill="#312e81">nombre</text>
+  <text x="48" y="128" font-size="10" fill="#312e81">email</text>
+
+  <!-- Tabla pedidos -->
+  <rect x="200" y="55" width="120" height="90" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="260" y="72" text-anchor="middle" font-size="11" font-weight="bold" fill="#312e81">pedidos</text>
+  <line x1="200" y1="80" x2="320" y2="80" stroke="#4f46e5"/>
+  <text x="208" y="96" font-size="10" fill="#312e81">id_pedido</text>
+  <text x="208" y="112" font-size="10" fill="#312e81">id_cliente (FK)</text>
+  <text x="208" y="128" font-size="10" fill="#312e81">id_producto (FK)</text>
+
+  <!-- Tabla productos -->
+  <rect x="80" y="180" width="120" height="80" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="140" y="197" text-anchor="middle" font-size="11" font-weight="bold" fill="#312e81">productos</text>
+  <line x1="80" y1="205" x2="200" y2="205" stroke="#4f46e5"/>
+  <text x="88" y="221" font-size="10" fill="#312e81">id_producto</text>
+  <text x="88" y="237" font-size="10" fill="#312e81">nombre, precio</text>
+
+  <line x1="160" y1="95" x2="200" y2="95" stroke="#4f46e5" stroke-width="1.5"/>
+  <line x1="260" y1="145" x2="180" y2="180" stroke="#4f46e5" stroke-width="1.5"/>
+
+  <text x="185" y="285" text-anchor="middle" font-size="12" fill="#4b5563" font-style="italic">tablas separadas, unidas por claves</text>
+
+  <!-- Documento NoSQL -->
+  <rect x="430" y="55" width="270" height="205" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+  <text x="450" y="80" font-size="12" fill="#065f46">{</text>
+  <text x="465" y="100" font-size="12" fill="#065f46">"_id": "001",</text>
+  <text x="465" y="120" font-size="12" fill="#065f46">"nombre": "Pedro",</text>
+  <text x="465" y="140" font-size="12" fill="#065f46">"edad": 30,</text>
+  <text x="465" y="160" font-size="12" fill="#065f46">"pedidos": [</text>
+  <text x="480" y="180" font-size="12" fill="#065f46">{ producto: "X" },</text>
+  <text x="480" y="200" font-size="12" fill="#065f46">{ producto: "Y" }</text>
+  <text x="465" y="220" font-size="12" fill="#065f46">]</text>
+  <text x="450" y="240" font-size="12" fill="#065f46">}</text>
+
+  <text x="565" y="285" text-anchor="middle" font-size="12" fill="#4b5563" font-style="italic">todo agrupado en un solo documento</text>
+</svg>

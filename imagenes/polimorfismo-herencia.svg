@@ -1,0 +1,36 @@
+<svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect width="700" height="300" fill="#ffffff"/>
+
+  <rect x="280" y="20" width="140" height="60" rx="8" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+  <text x="350" y="45" text-anchor="middle" font-size="14" font-weight="bold" fill="#312e81">Animal</text>
+  <text x="350" y="62" text-anchor="middle" font-size="11" fill="#312e81">makeSound()</text>
+
+  <line x1="350" y1="80" x2="350" y2="110" stroke="#6b7280" stroke-width="2"/>
+  <line x1="120" y1="110" x2="580" y2="110" stroke="#6b7280" stroke-width="2"/>
+  <line x1="120" y1="110" x2="120" y2="140" stroke="#6b7280" stroke-width="2" marker-end="url(#a5)"/>
+  <line x1="350" y1="110" x2="350" y2="140" stroke="#6b7280" stroke-width="2" marker-end="url(#a5)"/>
+  <line x1="580" y1="110" x2="580" y2="140" stroke="#6b7280" stroke-width="2" marker-end="url(#a5)"/>
+
+  <rect x="45" y="140" width="150" height="80" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+  <text x="120" y="168" text-anchor="middle" font-size="13" font-weight="bold" fill="#065f46">Perro</text>
+  <text x="120" y="186" text-anchor="middle" font-size="11" fill="#065f46">makeSound()</text>
+  <text x="120" y="202" text-anchor="middle" font-size="10" fill="#065f46" font-style="italic">devuelve "Guau"</text>
+
+  <rect x="275" y="140" width="150" height="80" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="350" y="168" text-anchor="middle" font-size="13" font-weight="bold" fill="#92400e">Gato</text>
+  <text x="350" y="186" text-anchor="middle" font-size="11" fill="#92400e">makeSound()</text>
+  <text x="350" y="202" text-anchor="middle" font-size="10" fill="#92400e" font-style="italic">devuelve "Miau"</text>
+
+  <rect x="505" y="140" width="150" height="80" rx="8" fill="#fde2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="580" y="168" text-anchor="middle" font-size="13" font-weight="bold" fill="#7f1d1d">Pájaro</text>
+  <text x="580" y="186" text-anchor="middle" font-size="11" fill="#7f1d1d">makeSound()</text>
+  <text x="580" y="202" text-anchor="middle" font-size="10" fill="#7f1d1d" font-style="italic">devuelve "Pío"</text>
+
+  <text x="350" y="260" text-anchor="middle" font-size="12" fill="#4b5563" font-style="italic">cada subclase hereda de Animal pero define su propia versión de makeSound()</text>
+
+  <defs>
+    <marker id="a5" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+</svg>

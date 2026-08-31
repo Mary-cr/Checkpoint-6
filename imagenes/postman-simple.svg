@@ -1,0 +1,30 @@
+<svg viewBox="0 0 700 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect width="700" height="330" fill="#ffffff"/>
+  <rect x="10" y="10" width="680" height="310" rx="10" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.5"/>
+
+  <!-- Barra de metodo + URL -->
+  <rect x="30" y="35" width="80" height="34" rx="6" fill="#fb923c"/>
+  <text x="70" y="57" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">GET</text>
+
+  <rect x="120" y="35" width="440" height="34" rx="6" fill="#ffffff" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="132" y="57" font-size="12" fill="#374151">https://api.ejemplo.com/usuarios</text>
+
+  <rect x="575" y="35" width="95" height="34" rx="6" fill="#f97316"/>
+  <text x="622" y="57" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Send</text>
+
+  <!-- Pestañas -->
+  <text x="35" y="100" font-size="12" fill="#f97316" font-weight="bold">Params</text>
+  <text x="105" y="100" font-size="12" fill="#6b7280">Headers</text>
+  <text x="175" y="100" font-size="12" fill="#6b7280">Body</text>
+  <line x1="30" y1="108" x2="670" y2="108" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Panel de respuesta -->
+  <rect x="30" y="130" width="640" height="170" rx="6" fill="#111827"/>
+  <text x="45" y="152" font-size="11" fill="#9ca3af">Response  •  200 OK  •  120 ms</text>
+  <text x="45" y="178" font-size="12" fill="#f3f4f6">[</text>
+  <text x="60" y="198" font-size="12" fill="#93c5fd">  { "id": 1, "nombre": "Javier" },</text>
+  <text x="60" y="218" font-size="12" fill="#93c5fd">  { "id": 2, "nombre": "Ana" }</text>
+  <text x="45" y="238" font-size="12" fill="#f3f4f6">]</text>
+
+  <text x="350" y="318" text-anchor="middle" font-size="11" fill="#9ca3af" font-style="italic">ilustración simplificada de la interfaz — no es una captura real</text>
+</svg>
